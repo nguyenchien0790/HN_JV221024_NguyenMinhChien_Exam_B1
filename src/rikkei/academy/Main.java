@@ -76,9 +76,10 @@ public class Main {
         System.out.print("Các phần tử có gía trị lẻ trong mảng : ");
         int sum=0;
         for (int i = 0; i < n; i++) {
-            if (arrInt[i]%2!=0)
-                System.out.println(" "+arrInt[i]);
-                sum+=arrInt[i];
+            if (arrInt[i]%2!=0) {
+                System.out.println(" " + arrInt[i]);
+                sum += arrInt[i];
+            }
         }
         System.out.print("Tổng các phần tử lẻ = " +sum);
     }
