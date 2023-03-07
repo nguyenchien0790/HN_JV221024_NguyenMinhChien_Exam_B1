@@ -150,8 +150,8 @@ public class Main {
 
     public static void sapXepTangDan(int[] arrInt){
         System.out.print("Cac phần tử trong mảng trước khi sắp xếp : ");
-        for (int i :arrInt) {
-            System.out.print(" "+ i);
+        for (int i =0;i<n;i++) {
+            System.out.print(" "+ arrInt[i]);
         }
 
         for (int k = 0; k < n - 1; k++) {
@@ -165,9 +165,9 @@ public class Main {
             arrInt[k] = arrInt[min];
             arrInt[min] = temp;
         }
-        System.out.print("Mảng sau khi sắp xếp là : ");
-        for (int i :arrInt) {
-            System.out.print(" "+ i);
+        System.out.print("\nMảng sau khi sắp xếp là : ");
+        for (int i =0;i<n;i++) {
+            System.out.print(" "+ arrInt[i]);
         }
     }
 
